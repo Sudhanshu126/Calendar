@@ -17,7 +17,7 @@ namespace Calendar
             {11, "November" },
             {12, "December" }
         };
-        private Label[] Days = new Label[7];
+        private Label[] Days;
 
         private int monthMain, yearMain;
         private bool isCurrentMonth;
